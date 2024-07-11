@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        } 
+        a{
+            text-decoration: none;
+        }
+        .jss135 {
+            top: 25px;
+            left: 25px;
+            color: #eaeaea;
+            cursor: pointer;
+            padding: 7px;
+            position: absolute;
+            font-size: 2rem;
+            box-shadow: 3px 3px 6px #ffffff40, -3px -3px 6px #00000050;
+            box-sizing: content-box;
+            transition: all 0.3s ease-in-out;
+            border-radius: 50%;
+        }
+        
+        .container .head{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            height: 40vh;
+            background-color: #3d4164;
+            width: 100%;
+        }
+        .container .head h1{
+            color: #ffffff;
+           font-size: 3em;
+           letter-spacing: .1em;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+
+        .class-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        }
+
+        .class-card {
+        background-color: #f8f8f8;
+        padding: 20px;
+        margin: 40px;
+        border-radius: 5px;
+        width: 250px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.534);
+        text-align: center;
+        height: 300px;
+        }
+                
+        .project--showcaseBtn {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        }
+        .class-card h3{
+        width: 210px;
+        padding-bottom: 10px;
+        padding-top: 20px;
+        font-size: 1.4em;
+
+        }
+        .class-card img{
+        width: 210px;
+        padding-bottom: 30px;
+        padding-top: 20px;
+        }
+        @media (max-width: 455px) {
+            .container .head h1{
+            color: #ffffff;
+           font-size: 2.3em;
+           
+        }
+        .class-card{
+            height: 250px;
+
+
+        }
+        
+        .class-card h3 {
+            font-size: 1.2em;
+        
+        }
+        
+        .class-card img {
+            width: 150px;
+            padding-bottom: 30px;
+            padding-top: 20px;
+        }
+        .jss135{
+            font-size: 1.7em;
+        }
+   
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <a href="./index.html">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" class="jss135" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 0 0-44.4 0L77.5 505a63.9 63.9 0 0 0-18.8 46c.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0 0 18.7-45.3c0-17-6.7-33.1-18.8-45.2zM568 868H456V664h112v204zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7 23.1 23.1L882 542.3h-96.1z"></path>
+                </svg>
+            </a>
+            <h1>projects</h1>
+        </div>
+        <div class="class-cards"> 
+            
+            <div class="class-card">
+                <h3>Mad Gym</h3>
+                <img src="./img/project/mad-removebg-preview.png" alt="Strength Training">
+                
+                <div class="project--showcaseBtn">
+                    <a href="https://mad-gym.netlify.app/" target="_blank" rel="noreferrer" class="jss116" aria-labelledby="employee-management employee-management-demo">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" id="employee-management-demo" class="jss117" aria-label="Demo" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/foaademad" target="_blank" rel="noreferrer" class="jss116" aria-labelledby="employee-management employee-management-code">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" id="employee-management-code" class="jss117" aria-label="Code" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M278.9 511.5l-61-17.7c-6.4-1.8-10-8.5-8.2-14.9L346.2 8.7c1.8-6.4 8.5-10 14.9-8.2l61 17.7c6.4 1.8 10 8.5 8.2 14.9L293.8 503.3c-1.9 6.4-8.5 10.1-14.9 8.2zm-114-112.2l43.5-46.4c4.6-4.9 4.3-12.7-.8-17.2L117 256l90.6-79.7c5.1-4.5 5.5-12.3.8-17.2l-43.5-46.4c-4.5-4.8-12.1-5.1-17-.5L3.8 247.2c-5.1 4.7-5.1 12.8 0 17.5l144.1 135.1c4.9 4.6 12.5 4.4 17-.5zm327.2.6l144.1-135.1c5.1-4.7 5.1-12.8 0-17.5L492.1 112.1c-4.8-4.5-12.4-4.3-17 .5L431.6 159c-4.6 4.9-4.3 12.7.8 17.2L523 256l-90.6 79.7c-5.1 4.5-5.5 12.3-.8 17.2l43.5 46.4c4.5 4.9 12.1 5.1 17 .6z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+  
+            <div class="class-card">
+                <h3>Finskillz</h3>
+                <img src="./img/project/4-removebg-preview.png" alt="Strength Training">
+                
+                <div class="project--showcaseBtn">
+                    <a href="https://github.com/foaademad" target="_blank" rel="noreferrer" class="jss116" aria-labelledby="employee-management employee-management-demo">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" id="employee-management-demo" class="jss117" aria-label="Demo" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/foaademad" target="_blank" rel="noreferrer" class="jss116" aria-labelledby="employee-management employee-management-code">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" id="employee-management-code" class="jss117" aria-label="Code" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M278.9 511.5l-61-17.7c-6.4-1.8-10-8.5-8.2-14.9L346.2 8.7c1.8-6.4 8.5-10 14.9-8.2l61 17.7c6.4 1.8 10 8.5 8.2 14.9L293.8 503.3c-1.9 6.4-8.5 10.1-14.9 8.2zm-114-112.2l43.5-46.4c4.6-4.9 4.3-12.7-.8-17.2L117 256l90.6-79.7c5.1-4.5 5.5-12.3.8-17.2l-43.5-46.4c-4.5-4.8-12.1-5.1-17-.5L3.8 247.2c-5.1 4.7-5.1 12.8 0 17.5l144.1 135.1c4.9 4.6 12.5 4.4 17-.5zm327.2.6l144.1-135.1c5.1-4.7 5.1-12.8 0-17.5L492.1 112.1c-4.8-4.5-12.4-4.3-17 .5L431.6 159c-4.6 4.9-4.3 12.7.8 17.2L523 256l-90.6 79.7c-5.1 4.5-5.5 12.3-.8 17.2l43.5 46.4c4.5 4.9 12.1 5.1 17 .6z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+  
+            <div class="class-card">
+                <h3>Burger</h3>
+                <img src="./img/project/Burger-Logo-Graphics-71886170-1-removebg-preview.png" alt="Strength Training">
+                
+                <div class="project--showcaseBtn">
+                    <a href="https://burggger.netlify.app/" target="_blank" rel="noreferrer" class="jss116" aria-labelledby="employee-management employee-management-demo">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" id="employee-management-demo" class="jss117" aria-label="Demo" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/foaademad" target="_blank" rel="noreferrer" class="jss116" aria-labelledby="employee-management employee-management-code">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" id="employee-management-code" class="jss117" aria-label="Code" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M278.9 511.5l-61-17.7c-6.4-1.8-10-8.5-8.2-14.9L346.2 8.7c1.8-6.4 8.5-10 14.9-8.2l61 17.7c6.4 1.8 10 8.5 8.2 14.9L293.8 503.3c-1.9 6.4-8.5 10.1-14.9 8.2zm-114-112.2l43.5-46.4c4.6-4.9 4.3-12.7-.8-17.2L117 256l90.6-79.7c5.1-4.5 5.5-12.3.8-17.2l-43.5-46.4c-4.5-4.8-12.1-5.1-17-.5L3.8 247.2c-5.1 4.7-5.1 12.8 0 17.5l144.1 135.1c4.9 4.6 12.5 4.4 17-.5zm327.2.6l144.1-135.1c5.1-4.7 5.1-12.8 0-17.5L492.1 112.1c-4.8-4.5-12.4-4.3-17 .5L431.6 159c-4.6 4.9-4.3 12.7.8 17.2L523 256l-90.6 79.7c-5.1 4.5-5.5 12.3-.8 17.2l43.5 46.4c4.5 4.9 12.1 5.1 17 .6z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+           
+            <div class="class-card">
+                <h3>Youtube Interface</h3>
+                <img src="./img/project/youtube.png" alt="Strength Training">
+                
+                <div class="project--showcaseBtn">
+                    <a href="https://tube-interface.netlify.app/" target="_blank" rel="noreferrer" class="jss116" aria-labelledby="employee-management employee-management-demo">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" id="employee-management-demo" class="jss117" aria-label="Demo" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/foaademad" target="_blank" rel="noreferrer" class="jss116" aria-labelledby="employee-management employee-management-code">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" id="employee-management-code" class="jss117" aria-label="Code" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M278.9 511.5l-61-17.7c-6.4-1.8-10-8.5-8.2-14.9L346.2 8.7c1.8-6.4 8.5-10 14.9-8.2l61 17.7c6.4 1.8 10 8.5 8.2 14.9L293.8 503.3c-1.9 6.4-8.5 10.1-14.9 8.2zm-114-112.2l43.5-46.4c4.6-4.9 4.3-12.7-.8-17.2L117 256l90.6-79.7c5.1-4.5 5.5-12.3.8-17.2l-43.5-46.4c-4.5-4.8-12.1-5.1-17-.5L3.8 247.2c-5.1 4.7-5.1 12.8 0 17.5l144.1 135.1c4.9 4.6 12.5 4.4 17-.5zm327.2.6l144.1-135.1c5.1-4.7 5.1-12.8 0-17.5L492.1 112.1c-4.8-4.5-12.4-4.3-17 .5L431.6 159c-4.6 4.9-4.3 12.7.8 17.2L523 256l-90.6 79.7c-5.1 4.5-5.5 12.3-.8 17.2l43.5 46.4c4.5 4.9 12.1 5.1 17 .6z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            
+  
+        </div>
+    </div>
+</body>
+</html>
