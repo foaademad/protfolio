@@ -1,0 +1,511 @@
+
+
+
+
+
+@media (max-width: 1500px) {
+    .profile-image img {
+      position: absolute;
+      border-radius: 50%;
+      top: 50%;
+      right: 50%;
+      transform: translate(-8%, -50%);
+      width: 400px;
+      object-fit: cover;
+    }
+  
+    /* .section3 */
+    .high-school {
+      display: flex;
+      font-size: 1.4em;
+      margin-top: 20px;
+      border: none;
+      background-color: #4c507480;
+      border-radius: 10%;
+      width: 100%;
+      /* 50% of the viewport width */
+      height: 170px;
+      /* 50% of the viewport width, making it a square */
+      padding-top: 20px;
+      
+      box-sizing: border-box;
+    }
+  }
+  
+  @media (max-width: 1350px) {
+  
+    /* section1 */
+    .profile-image img {
+      position: absolute;
+      border-radius: 50%;
+      top: 50%;
+      right: 50%;
+      transform: translate(-2%, -50%);
+      
+      object-fit: cover;
+    }
+  
+    /* section2 */
+    .content-about .content{
+
+         width: 100%;
+    }
+    .content-about .content h5 {
+  
+      font-size: 1.1em;
+      margin-top: 20px;
+      line-height: 1.5em;
+      color: #4e4e4e;
+    }
+  
+    .content-about .content p {
+       
+      font-size: 1em;
+      margin-top: 20px;
+      line-height: 1.6em;
+      color: #777;
+    }
+  
+    .content-about .content h1 {
+      width: 90%;
+      font-size: 2.7em;
+      margin-bottom: 50px;
+      margin-top: 30px;
+      font-weight: bold;
+      color: #3d4164;
+      letter-spacing: .1em;
+    }
+  
+    .content-about .img img {
+      width: 20em;
+    }
+  
+    /* section3 */
+    .high-school {
+      display: flex;
+      font-size: 1.2em;
+      margin-top: 20px;
+      border: none;
+      background-color: #4c507480;
+      border-radius: 10%;
+      width: 100%;
+      height: 190px;
+      padding-top: 20px;
+    
+      box-sizing: border-box;
+    }
+    .section3 .img img {
+      width: 450px;
+
+    }
+    
+  
+  }
+   
+  
+  @media (max-width: 999px) {
+    .span_menu {
+      display: block;
+      float: right;
+      padding-right: 30px;
+  
+    }
+    .right-section nav{
+      display: none;
+    }
+    .info h3 {
+      color: #555;
+      margin-bottom: 10px;
+    }
+  
+    .info h1 {
+      font-size: 2.2em;
+      margin-bottom: 20px;
+    }
+  
+    .info p {
+      font-size: 1em;
+      width: 80%;
+      margin-bottom: 30px;
+      color: #777;
+    }
+  
+    .profile-image img {
+      position: absolute;
+      border-radius: 50%;
+      top: 50%;
+      right: 50%;
+      transform: translate(-8%, -50%);
+      width: 250px;
+      object-fit: cover;
+    }
+  
+    /* sectioin3 */
+    .section3 img {
+      display: none;
+    }
+    .high-school {
+        
+        height: 150px;
+        
+      }
+  
+    .section3 {
+      margin: auto;
+      width: 80%;
+      display: block;
+  
+    }
+    .high-school .fa-graduation-cap {
+        
+        padding: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    /* sectioin5 */
+    .section5 img {
+      display: none;
+    }
+  
+    .section5 {
+      margin: auto;
+      width: 80%;
+      display: block;
+  
+    }
+  
+    .contacts--img {
+      display: none;
+    }
+  
+  
+  
+  }
+  
+  @media (max-width: 810px) {
+    
+  
+    .info h3 {
+      font-size: 1em;
+      color: #555;
+      margin-bottom: 10px;
+    }
+  
+    .info h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+  
+    .info p {
+      font-size: 1em;
+      width: 95%;
+      margin-bottom: 30px;
+      color: #777;
+    }
+    .content-about {
+        margin: auto;
+        width: 90%;
+        display: block;
+    
+      }
+    
+    .profile-image img {
+      position: absolute;
+      border-radius: 50%;
+      top: 50%;
+      right: 50%;
+      transform: translate(-2%, -50%);
+      width: 220px;
+      object-fit: cover;
+    }
+   
+   
+  
+    .overlay a {
+      font-size: 26px;
+    }
+  
+    .contacts-body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contacts-details {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-evenly;
+      flex: 0.6 1;
+      box-sizing: border-box;
+      padding-left: 0rem;
+  
+    }
+  
+  
+  }
+  
+  @media (max-width: 759px) {
+    
+    
+ 
+  
+  }
+  
+  @media (max-width: 650px) {
+    .info {
+      position: static;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+    .info h3 {
+      color: #555;
+      margin-bottom: 10px;
+    }
+  
+    .info h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+  
+    .info p {
+      font-size: 1.4em;
+      width: 80%;
+      margin-bottom: 30px;
+      color: #777;
+    }
+  
+    .icons {
+      display: none;
+    }
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .profile-image img {
+      position: absolute;
+      border-radius: 50%;
+      top: 50%;
+      right: 50%;
+      transform: translate(50%, -135%);
+      width: 220px;
+      object-fit: cover;
+    }
+  
+    .left-section {
+      flex: .5;
+      background-color: #3d4164;
+      flex-direction: column;
+      height: 100vh;
+  
+    }
+  
+    .info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .disable {
+      display: none;
+    }
+  
+    .button {
+      width: 100%;
+    }
+  
+    .span_menu {
+      font-size: 30px;
+    }
+  
+    .logo h3 {
+      padding-top: 10px;
+      width: 100%;
+      height: 70px;
+      margin-left: 40px;
+      font-size: 1.4em;
+      font-family: "BestermindRegular";
+    }
+  
+    /* section3 */
+    .high-school {
+      font-size: 1em;
+  
+    }
+  
+    .contentLearning h3 {
+      font-size: 1em;
+      font-weight: bold;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+  
+    .services-header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+  /* section8 */
+  .contacts--container {
+
+    padding: 20px;
+    
+  }
+  }
+  
+  @media (max-width: 455px) {
+  
+    .profile-image img {
+      position: absolute;
+      border-radius: 50%;
+      top: 45%;
+      right: 50%;
+      transform: translate(50%, -140%);
+      width: 150px;
+      object-fit: cover;
+  
+    }
+  
+    .info {
+      margin-top: 40px;
+    }
+  
+    .info p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.2em;
+      width: 80%;
+      margin-bottom: 40px;
+      color: #777;
+    }
+  
+    /* section3 */
+    .high-school {
+      font-size: .9em;
+      padding: 0;
+      padding-top: 10px;
+    }
+  
+    .contentLearning h3 {
+      font-size: .9em;
+  
+    }
+  
+    .high-school {
+      display: flex;
+      font-size: 1..2em;
+      margin-top: 20px;
+      border: none;
+      background-color: #4c507480;
+      border-radius: 10%;
+      width: 100%;
+      height: 130px;
+      padding-top: 20px;
+  
+      box-sizing: border-box;
+  
+    }
+  
+    .section4 h1 {
+      font-size: 2.4em;
+      margin-top: 3em;
+    }
+  
+    .scroll-container .card {
+  
+      width: 150px;
+      height: 150px;
+  
+    }
+  
+    .scroll-container .card h3 {
+      font-size: 1.2em;
+  
+    }
+  
+    .scroll-container .card img {
+      width: 4em;
+    }
+  
+    .class-card img {
+      width: 150px;
+      padding-bottom: 30px;
+      padding-top: 20px;
+    }
+  
+    .services-body>p {
+  
+      width: 100%;
+  
+    }
+  
+    .contacts--container>h1 {
+  
+      font-size: 2.5rem;
+  
+    }
+  
+    .section3 .content h1 {
+      width: 90%;
+      font-size: 2.4em;
+  
+  
+    }
+  
+    .section5 h2 {
+      font-size: 2.4em;
+      color: #3d4164;
+      font-weight: bolder;
+    }
+  
+    .section6 .classes h1 {
+      font-weight: 700;
+      font-size: 2.4em;
+  
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .profile-image img {
+      position: absolute;
+      border-radius: 50%;
+      top: 45%;
+      right: 50%;
+      transform: translate(50%, -165%);
+      width: 100px;
+      object-fit: cover;
+    }
+  
+    /* section3 */
+    .high-school {
+      display: flex;
+      font-size: .9em;
+      margin-top: 20px;
+      border: none;
+      background-color: #4c507480;
+      border-radius: 10%;
+  
+    }
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {
+      font-size: 20px
+    }
+  
+    .overlay .closebtn {
+      font-size: 20px;
+      top: 15px;
+      right: 35px;
+    }
+  
+    .text h1 {
+      font-size: 20px;
+    }
+  }
